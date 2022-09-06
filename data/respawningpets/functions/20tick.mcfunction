@@ -3,7 +3,7 @@ scoreboard players reset tick respets20tick
 
 ##respawn_timer
 execute as @e[tag=tamed,tag=dead] at @s run scoreboard players add @s petRespawnTimer 1
-execute as @e[tag=tamed,tag=dead] at @s if score @s petRespawnTimer matches 6000.. run function respawningpets:respawn
+execute as @e[tag=tamed,tag=dead] at @s if score @s petRespawnTimer matches 300.. run function respawningpets:respawn
 
 ##justRespawned
 execute as @e[tag=tamed,tag=justRespawned] at @s run scoreboard players add @s respawnEffectDelay 1
