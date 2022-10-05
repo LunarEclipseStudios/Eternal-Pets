@@ -24,5 +24,5 @@ execute as @e[tag=tamed,tag=dead] at @s run effect give @s fire_resistance 1 255
 execute as @e[tag=tamed,tag=dead] at @s run team join petDead
 execute as @e[tag=tamed,tag=!dead] at @s run team leave petDead
 
-execute as @e[tag=tamed,tag=dead] at @r run tp ~ 400 ~
+execute as @e[tag=tamed,tag=dead] at @s run tp 0 400 0
 
