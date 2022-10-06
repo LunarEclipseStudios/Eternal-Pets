@@ -21,6 +21,7 @@ execute as @e[tag=tamed,tag=dead] at @s run effect give @s invisibility 1 1 true
 execute as @e[tag=tamed,tag=dead] at @s run effect give @s regeneration 1 255 true
 execute as @e[tag=tamed,tag=dead] at @s run effect give @s resistance 1 255 true
 execute as @e[tag=tamed,tag=dead] at @s run effect give @s fire_resistance 1 255 true
+execute as @e[tag=tamed,tag=dead] at @s run effect give @s slow_falling 2 1 true
 execute as @e[tag=tamed,tag=dead] at @s run team join petDead
 execute as @e[tag=tamed,tag=!dead] at @s run team leave petDead
 
