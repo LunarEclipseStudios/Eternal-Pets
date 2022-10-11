@@ -1,13 +1,14 @@
-##scoreboards
-scoreboard objectives add respets20tick dummy
-scoreboard objectives add pethealth dummy
-scoreboard objectives add petRespawnTimer dummy
-scoreboard objectives add respawnEffectDelay dummy
+#20tick
+schedule function respawningpets:20tick 20t
 
+#30stick
+schedule function respawningpets:30stick 30s
 
-##teams
-team add petDead
-team modify petDead collisionRule never
+#forceload0-0
+execute in overworld run forceload add 0 0
+execute in the_nether run forceload add 0 0
+execute in the_end run forceload add 0 0
 
-#safetyNet
-schedule function respawningpets:safetynet 10s
+#scoreboards
+scoreboard objectives add respawnTimer dummy
+scoreboard objectives add noOwnerCheck dummy
