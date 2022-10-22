@@ -9,3 +9,4 @@ execute in overworld run tp @s 0 500 0
 #timer
 scoreboard players add @s respawnTimer 1
 execute if score @s respawnTimer matches 6000.. run function respawningpets:events/respawn
+

@@ -1,5 +1,5 @@
 #checkIfDead
-execute if entity @s[tag=checked] unless predicate respawningpets:in_soul_sand_valley unless data entity @s {HandItems: [{id: "minecraft:totem_of_undying", Count: 1b}]} run function respawningpets:events/died
+execute if score @s petTime matches 2.. if entity @s[tag=checked] unless predicate respawningpets:in_soul_sand_valley unless data entity @s {HandItems: [{id: "minecraft:totem_of_undying", Count: 1b}]} run function respawningpets:events/died
 
 #totemGive
 execute unless data entity @s {HandItems: [{id: "minecraft:totem_of_undying", Count: 1b}]} unless predicate respawningpets:in_soul_sand_valley run item replace entity @s weapon with totem_of_undying 1
@@ -8,7 +8,7 @@ execute unless data entity @s {HandItems: [{id: "minecraft:totem_of_undying", Co
 execute if predicate respawningpets:in_soul_sand_valley run item replace entity @s weapon with air 1
 
 #checkIfNewPet
-tag @s add checked
+execute if data entity @s {HandItems: [{id: "minecraft:totem_of_undying", Count: 1b}]} run tag @s add checked
 
 #deadTick
 execute as @s[tag=dead] at @s run function respawningpets:ticks/dead

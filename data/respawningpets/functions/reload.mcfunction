@@ -13,3 +13,4 @@ execute in the_end run forceload add 0 0
 scoreboard objectives add respawnTimer dummy
 scoreboard objectives add noOwnerCheck dummy
 scoreboard objectives add petCheck dummy
+scoreboard objectives add petTime dummy
