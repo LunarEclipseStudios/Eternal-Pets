@@ -14,3 +14,4 @@ scoreboard objectives add respawnTimer dummy
 scoreboard objectives add noOwnerCheck dummy
 scoreboard objectives add petCheck dummy
 scoreboard objectives add petTime dummy
+scoreboard objectives add ownerCheck dummy
