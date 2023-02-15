@@ -1,11 +1,10 @@
-# Eternal Pets
-## Mod/Datapack for Minecraft: Java Edition
+# **Eternal Pets**
+
+## **Mod/Datapack for Minecraft: Java Edition**
 
 We all love pets in Minecraft, but we hate when they die. Eternal pets is a mod/datapack that add a pet respawning mechanic to the parrot, the cat, and the wolf!
 
-If you have any questions feel free to take a look at our website! [lunareclipse.studio](https://www.lunareclipse.studio/eternal-pets)
-
-## Installation
+## **Installation**
 
 #### Stable releases
 
@@ -16,7 +15,8 @@ Releases are considered to be **suitable for general use**, but they are not gua
 
 ---
 
-### Community
+## **Community**
+
 [![Discord chat](https://img.shields.io/badge/chat%20on-discord-7289DA?logo=discord&logoColor=white)](https://discord.gg/RmMtqxJJgH)
 
 We have an [official Discord community.](https://discord.gg/RmMtqxJJgH) By joining, you can:
@@ -26,7 +26,13 @@ We have an [official Discord community.](https://discord.gg/RmMtqxJJgH) By joini
 
 ---
 
-### Website
+## **License**
+
+This project is licensed under the Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) license. Feel free to use and modify the mod/datapack as you see fit, as long as you give credit to the original authors, do not use it for commercial purposes, and share any modifications under the same license. See the [LICENSE](https://github.com/LunarEclipseStudios/Eternal-Pets/blob/main/LICENSE.md) file for more details.
+
+---
+
+## **Website**
 Feel free to check out our website!
 https://lunareclipse.studio
 
