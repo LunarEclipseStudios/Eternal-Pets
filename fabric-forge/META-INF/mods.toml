@@ -1,0 +1,21 @@
+modLoader = "javafml"
+loaderVersion="[40,)"
+license="None"
+logoFile="banner.png"
+
+[[mods]]
+modId="respawningpets"
+version="1.2"
+displayName="Eternal Pets"
+credits="§8Created by §5☆Lunar Eclipse Studios☆"
+displayURL="https://lunareclipse.studio/creations/eternal-pets"
+issueTrackerURL="https://github.com/LunarEclipseStudios/Eternal-Pets/issues"
+authors="Bret06"
+description='''We all love pets in Minecraft, but we hate when they die. Eternal pets is a mod/datapack that adds a pet respawning mechanic to the parrot, the cat, and the wolf!'''
+
+[[dependencies.watching]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20, 1.21]"
+    ordering="NONE"
+    side="BOTH"
