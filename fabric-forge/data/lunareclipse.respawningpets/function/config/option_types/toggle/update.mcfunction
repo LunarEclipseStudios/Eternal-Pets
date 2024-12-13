@@ -1,0 +1,6 @@
+# List of variables used:
+# "option" - The option being updated.
+
+# Update the display.
+$execute as @e[type=minecraft:item_display,tag=config.$(option),tag=config.display] at @s if score config.$(option) respawningpets.global_values matches 1 run data merge entity @s {brightness:{sky:15,block:15},item:{id:"minecraft:player_head",count:1,components:{"minecraft:profile":{id:[I;-633980443,-965786644,-1236599343,-445874542],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTkxOWRkNzJlMzhjZWMzNjljNjUwODY4Njg5NmNjYjg0MTAwZmQwMjdjNGY2MGE2ODFkMTZhNzY0MDMyOWNjIn19fQ=="}]}}}}
+$execute as @e[type=minecraft:item_display,tag=config.$(option),tag=config.display] at @s if score config.$(option) respawningpets.global_values matches 0 run data merge entity @s {brightness:{sky:5,block:5},item:{id:"minecraft:player_head",count:1,components:{"minecraft:profile":{id:[I;-224736069,-1456191956,-1309585492,424847038],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmQ1OGQ0NTkxNjVkNTk3ODc1M2VhYjVmNDRiZDYwOWYzZGI4NGVlM2JiMDE2OTMyMDUyMzg5ZDM4Yjg5NSJ9fX0="}]}}}}
