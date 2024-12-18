@@ -1,4 +1,4 @@
-# **Eternal Pets**
+# ![text](https://cdn.lunareclipse.studio/img/projects/eternal-pets/banner-text.webp)
 
 ## **Mod/Datapack for Minecraft: Java Edition**
 
