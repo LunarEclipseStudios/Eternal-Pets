@@ -36,3 +36,4 @@ $data modify storage lunareclipse.respawningpets:pet_information pets."$(UUID)".
 $data modify storage lunareclipse.respawningpets:pet_information pets."$(UUID)".Data.Health set value 6.0f
 $data modify storage lunareclipse.respawningpets:pet_information pets."$(UUID)".Data.Fire set value -20
 $data modify storage lunareclipse.respawningpets:pet_information pets."$(UUID)".Data.Motion set value [0.0d,0.0d,0.0d]
+$data modify storage lunareclipse.respawningpets:pet_information pets."$(UUID)".Data.FallDistance set value 0f
