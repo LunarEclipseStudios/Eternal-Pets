@@ -35,3 +35,4 @@ $execute in minecraft:overworld if entity @s[distance=..2] run data modify stora
 $data modify storage lunareclipse.respawningpets:pet_information pets."$(UUID)".Data.Sitting set value 0b
 $data modify storage lunareclipse.respawningpets:pet_information pets."$(UUID)".Data.Health set value 6.0f
 $data modify storage lunareclipse.respawningpets:pet_information pets."$(UUID)".Data.Fire set value -20
+$data modify storage lunareclipse.respawningpets:pet_information pets."$(UUID)".Data.Motion set value [0.0d,0.0d,0.0d]
